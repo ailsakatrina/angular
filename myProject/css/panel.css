@@ -1,0 +1,92 @@
+body{
+	margin:20px;
+}
+
+.form-horizontal{
+	top:200px;
+	position:relative;
+	margin-left:-20px;
+}
+
+.form-group{
+	margin-top:50px;
+
+}
+
+
+#Panel{
+	border-top:solid #ffa95e 3px;
+	border-left:solid #ffa95e 3px;
+	border-right:solid #ffa95e 3px;
+
+	background-color:#ffd2ab;
+	
+	border-top-left-radius:32px;
+	border-top-right-radius:32px;
+
+	
+	position:fixed;
+	width:456px;
+	height:290px;
+	left:700px;
+	top:120px;
+}
+#alpPanel,#pre_alp{
+	left:22px;
+	top:20px;
+	position:absolute;
+}
+#numPanel,#pre_num{
+	left:104px;
+	top:10px;
+	position:absolute;
+}
+
+#pre_alp,#pre_num{
+	z-index:10;
+	display: none; 
+}
+#alpTab{
+    color: #ffa95e;
+    background-color: #ffd2ab;
+    font-size: 26px;
+    border-left:solid #ffa95e 3px;
+    border-bottom-left-radius:32px;
+    border-right:solid #ffa95e 2px;
+    left:700px;
+    top:410px;
+    position: fixed;
+}
+#numTab{
+    font-size: 26px;
+    border-right:solid #ffa95e 3px;
+    border-bottom-right-radius:32px;
+    left:928px;
+    top:410px;
+    position: fixed;
+    background-color: #ffa95e;
+    color:white;
+    
+}
+
+#alpTab,#numTab{
+	border-top:solid #ffa95e 2px;
+	border-bottom:solid #ffa95e 3px;
+	width:228px;
+	height:60px;
+	letter-spacing: 15px;
+
+}
+
+#alpTab,#numTab span{
+	padding-left:83px;
+	position:fixed;
+	line-height: 55px;
+	cursor: pointer;
+}
+
+
+
+
+
+

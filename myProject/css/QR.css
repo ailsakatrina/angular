@@ -1,0 +1,12 @@
+#QRpage{
+	position:fixed;
+	left:700px;
+	top:150px;
+	text-align: center;
+}
+#qrcode{
+	height:300px;
+	width:300px;
+	
+	background-color: grey;
+}

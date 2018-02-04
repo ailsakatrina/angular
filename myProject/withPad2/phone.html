@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>中国平安</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+        <link rel="stylesheet" href="css/phone.css">
+        <script src = "js/jquery-2.0.0.min.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/phone.js"></script>
+        <script>
+            $(document).ready(function(){
+                phone.initial();
+            });
+        </script>
+    </head>
+
+    <body>
+
+            <div class="contentBox">
+                <p>您的票号是：<span class="ticketNum" id="ticketNum"></span></p>
+                <p>您的前面有 <span class="beforeNum" id="queueNum"></span> 人在等待</p>
+                <p><span class="greyFont" >排队队列：</span ><span id="userType">普通用户</span></p>
+                <p id="pad" ><span class="greyFont" >iPad解锁码：</span><span id="padCode"></span></p>
+                <p><span class="greyFont">取号时间:</span><span id="time"></span></p>
+            </div>
+
+
+    </body>
+</html>

@@ -1,0 +1,24 @@
+ <div ng-controller='verify'>
+  	<form class='form-horizontal'>
+	    <div class='form-group'>
+	    	<label class='col-sm-2 control-label' for='id'>ID Num:</label>
+	         <div class='col-sm-5'>
+	             <input id="zjhm_yyqh" class='form-control' name='id' onfocus='VK.creatObj(this);' placeholder="点击此处输入您的证件号码" value='140202199206021524'>
+	         </div>
+	    </div>
+	    <div class='form-group'>
+	    	<label class='col-sm-2 control-label' for='phone'>Phone Num:</label>
+	        <div class='col-sm-5 '>
+	            <input id="phone_yyqh" class='form-control' name='phone' onfocus='VK.creatObj(this);' placeholder="点击此处输入您的手机号码" value='13691803204'>
+	        </div>
+	    </div>
+
+	    <div class='form-group'>
+	        <div class='col-sm-3 col-sm-offset-2 '>
+	            <button class='btn ' ng-class="{true: 'btn-warning', false: 'btn-success'}[chooseColor]"  ng-click='check();'>Submit</button>
+	        </div>
+	    </div>
+	</form>
+	
+	<div ui-view></div>
+</div>

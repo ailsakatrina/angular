@@ -1,0 +1,25 @@
+.userIcon{
+	position: absolute;
+	left: 0;
+	z-index:5;
+	background-image: url(../image/signIn/user.png); /*引入图片图片*/
+	background-repeat: no-repeat; /*设置图片不重复*/
+	background-position: 18px 8px; /*图片显示的位置*/
+	width: 15%; /*设置图片显示的宽*/
+	height: 80%; /*图片显示的高*/
+	opacity: .3;
+}
+.input-lg{
+	padding-left:50px;
+}
+.passIcon{
+	position: absolute;
+	left: 0;
+	z-index:5;
+	background-image: url(../image/signIn/password.png); /*引入图片图片*/
+	background-repeat: no-repeat; /*设置图片不重复*/
+	background-position: 18px 8px; /*图片显示的位置*/
+	width: 15%; /*设置图片显示的宽*/
+	height: 80%; /*图片显示的高*/
+	opacity: .3;
+}

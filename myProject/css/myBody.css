@@ -1,0 +1,77 @@
+.myBody{
+	position:relative;
+	margin:50px;
+	
+	
+}
+body{
+	user-select:none;
+}
+
+
+.myNavBar{
+	margin:0 10px;
+}
+
+.modal-body{
+	 padding-top: 180px !important;
+}
+.logInForm{
+	 top: -25px !important;
+	 position:relative;
+}
+.brand{
+	color:orange;
+	bottom:110px;
+	position: relative;
+	font-size:40px;
+	text-align: center;
+}
+.modal-body h4{
+	text-align: center;
+	bottom:45px;
+	position: relative;
+}
+.signIn{
+	color:lightblue;
+	font-size:10px;
+	text-align: center;
+	bottom:30px;
+	position:relative;
+}
+
+.signIn a{
+	text-decoration: none;
+	color:lightblue;
+}
+.signIn a:hover{
+	background-color: lightblue;
+	color:white;
+}
+
+.myBtn{
+	font-weight: bold;
+}
+
+
+/* sign in page */
+
+.modal-body .tlt{
+	text-align: center;
+	bottom:120px;
+	position: relative;
+	font-size:22px;
+}
+
+
+.signInForm{
+	top: -65px !important;
+ 	position:relative;
+}
+
+.signInForm .form-group:last-child{
+	top:20px;
+	position:relative;
+}
+
+ 

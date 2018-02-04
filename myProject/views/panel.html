@@ -1,0 +1,59 @@
+<div id="Panel">
+	    <img id="pre_alp" src="image/VK/input_pre_alp.png" />
+	    <img id="alpPanel" class='map' src="image/VK/alphabet.png" style='display:none;' usemap="#map1"/>
+	    <map name="map1">
+	        <area shape="circle" coords="24,24,24" href="javascript:void(0);" alt="a" onclick='VK.add(this);'>
+	        <area shape="circle" coords="84,24,24" href="javascript:void(0);" alt="b" onclick='VK.add(this);'>
+	        <area shape="circle" coords="144,24,24" href="javascript:void(0);" alt="c" onclick='VK.add(this);'>
+	        <area shape="circle" coords="204,24,24" href="javascript:void(0);" alt="d" onclick='VK.add(this);'>
+	        <area shape="circle" coords="264,24,24" href="javascript:void(0);" alt="e" onclick='VK.add(this);'>
+	        <area shape="circle" coords="324,24,24" href="javascript:void(0);" alt="f" onclick='VK.add(this);'>
+	        <area shape="circle" coords="384,24,24" href="javascript:void(0);" alt="g" onclick='VK.add(this);'>
+	        <area shape="circle" coords="24,88,24" href="javascript:void(0);" alt="h" onclick='VK.add(this);'>
+	        <area shape="circle" coords="84,88,24" href="javascript:void(0);" alt="i" onclick='VK.add(this);'>
+	        <area shape="circle" coords="144,88,24" href="javascript:void(0);" alt="j" onclick='VK.add(this);'>
+	        <area shape="circle" coords="204,88,24" href="javascript:void(0);" alt="k" onclick='VK.add(this);'>
+	        <area shape="circle" coords="264,88,24" href="javascript:void(0);" alt="l" onclick='VK.add(this);'>
+	        <area shape="circle" coords="324,88,24" href="javascript:void(0);" alt="m" onclick='VK.add(this);'>
+	        <area shape="circle" coords="384,88,24" href="javascript:void(0);" alt="n" onclick='VK.add(this);'>
+	        <area shape="circle" coords="24,152,24" href="javascript:void(0);" alt="o" onclick='VK.add(this);'>
+	        <area shape="circle" coords="84,152,24" href="javascript:void(0);" alt="p" onclick='VK.add(this);'>
+	        <area shape="circle" coords="144,152,24" href="javascript:void(0);" alt="q" onclick='VK.add(this);'>
+	        <area shape="circle" coords="204,152,24" href="javascript:void(0);" alt="r" onclick='VK.add(this);'>
+	        <area shape="circle" coords="264,152,24" href="javascript:void(0);" alt="s" onclick='VK.add(this);'>
+	        <area shape="circle" coords="324,152,24" href="javascript:void(0);" alt="t" onclick='VK.add(this);'>
+	        <area shape="circle" coords="384,152,24" href="javascript:void(0);" alt="u" onclick='VK.add(this);'>
+	        <area shape="circle" coords="24,216,24" href="javascript:void(0);" alt='delete' onclick='VK.delete(this);'>
+	        <area shape="circle" coords="84,216,24" href="javascript:void(0);" alt="v" onclick='VK.add(this);'>
+	        <area shape="circle" coords="144,216,24" href="javascript:void(0);" alt="w" onclick='VK.add(this);'>
+	        <area shape="circle" coords="204,216,24" href="javascript:void(0);" alt="x" onclick='VK.add(this);'>
+	        <area shape="circle" coords="264,216,24" href="javascript:void(0);" alt="y" onclick='VK.add(this);'>
+	        <area shape="circle" coords="324,216,24" href="javascript:void(0);" alt="z" onclick='VK.add(this);'>
+	        <area shape="circle" coords="384,216,24" href="javascript:void(0);" alt='empty' onclick='VK.empty(this);');">
+	    </map>
+
+	    <img id="pre_num" src="image/VK/input_pre_num.png"  />
+	    <img id="numPanel" class='map' src="image/VK/number.png" usemap="#map2"/>
+	    <map name="map2">
+	             <area shape="circle" coords="28,28,28" href="javascript:void(0);" alt="1" onclick="VK.add(this);">
+	             <area shape="circle" coords="120,28,28" href="javascript:void(0);" alt="2" onclick="VK.add(this);">
+	             <area shape="circle" coords="212,28,28" href="javascript:void(0);" alt="3" onclick="VK.add(this);">
+	             <area shape="circle" coords="28,96,28" href="javascript:void(0);" alt="4" onclick="VK.add(this);">
+	             <area shape="circle" coords="120,96,28" href="javascript:void(0);" alt="5" onclick="VK.add(this);">
+	             <area shape="circle" coords="212,96,28" href="javascript:void(0);" alt="6" onclick="VK.add(this);">
+	             <area shape="circle" coords="28,164,28" href="javascript:void(0);" alt="7" onclick="VK.add(this);">
+	             <area shape="circle" coords="120,164,28" href="javascript:void(0);" alt="8" onclick="VK.add(this);">
+	             <area shape="circle" coords="212,164,28" href="javascript:void(0);" alt="9" onclick="VK.add(this);">
+	             <area shape="circle" coords="28,232,28" href="javascript:void(0);" alt='delete' onclick="VK.delete(this);">
+	             <area shape="circle" coords="120,232,28" href="javascript:void(0);" alt="0" onclick="VK.add(this);">
+	             <area shape="circle" coords="212,232,28" href="javascript:void(0);" alt='empty' onclick="VK.empty(this);">
+	    </map>
+	    <div id='ctlTab'>
+	        <div id='alpTab' onclick='VK.changeTab(this);'>
+	            <span>字母</span>
+	        </div>
+	        <div id='numTab' onclick='VK.changeTab(this);'>
+	            <span>数字</span>
+	        </div>
+	    </div>
+	</div>

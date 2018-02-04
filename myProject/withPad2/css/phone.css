@@ -1,0 +1,49 @@
+/**
+ * @file 本js控制取号手机界面
+ * @author xxt
+ * @version v0.1
+ */
+body{
+    margin:0;
+    padding:0;
+    background-image:url('../anniversary/Group3.png');
+    background-size:100% 100%;
+    color:#38322E;
+    overflow:hidden;
+}
+
+/*取票信息*/
+.contentBox {
+    position:absolute;
+    width:100%;
+    height:40%;
+    top:27%;
+    left:0%;
+    text-align:center;
+    line-height: 200%;
+    font-size:3.8vw;
+
+    /*position: fixed;
+    top:25%;
+    left:50%;
+    width:336px;
+    margin-left:-168px;
+    text-align:center;
+    float:inherit;*/
+}
+
+/*票号*/
+.ticketNum{
+    font-size:170%;
+    color:#EA5504 !important;
+}
+
+/*队列前面人数*/
+.beforeNum{
+    font-size:170%;
+}
+
+/*灰色字体*/
+.greyFont{
+    color:#878787;
+}

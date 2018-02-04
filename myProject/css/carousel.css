@@ -1,0 +1,36 @@
+.carousel-control.right {
+	padding-top:250px;
+  	font-size:50px;
+  	right:10%;
+  	left:auto;
+   	position:absolute;
+}
+.carousel-control.left  {
+	padding-top:250px;
+	font-size:50px;
+	left:9%;
+	position:absolute;
+}
+.carousel-inner {
+	width: 90% !important;
+	left:9%;
+}
+.item >img{
+	width:90%;
+}
+
+.carousel-indicators li{
+	width:20px !important;
+	height:20px !important;
+	text-indent: 0 !important;
+	color:black;
+	background-color:white;
+} 
+
+.carousel-indicators .active{
+	color:white;
+	background-color:grey;
+	border:grey;
+}
+
+
